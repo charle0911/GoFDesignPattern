@@ -16,9 +16,9 @@ public class FactoryProto {
 
         String hero = sc.next();
         if (hero.equals("magician")) {
-            factory.makeMagician().attack();
+            factory.makeMagician().magicAttack();
         } else if (hero.equals("warrior")) {
-            factory.makeWarrior().attack();
+            factory.makeWarrior().swordAttack();
         }
     }
 }

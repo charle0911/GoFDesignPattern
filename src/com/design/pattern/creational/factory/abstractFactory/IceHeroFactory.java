@@ -1,18 +1,15 @@
 package com.design.pattern.creational.factory.abstractFactory;
 
-import com.design.pattern.creational.factory.abstractFactory.domain.FireMagician;
-import com.design.pattern.creational.factory.abstractFactory.domain.Hero;
-import com.design.pattern.creational.factory.abstractFactory.domain.IceMagician;
-import com.design.pattern.creational.factory.abstractFactory.domain.IceWarrior;
+import com.design.pattern.creational.factory.abstractFactory.domain.*;
 
 public class IceHeroFactory implements HeroFactory {
     @Override
-    public Hero makeMagician() {
+    public Magician makeMagician() {
         return new IceMagician();
     }
 
     @Override
-    public Hero makeWarrior() {
+    public Warrior makeWarrior() {
         return new IceWarrior();
     }
 }

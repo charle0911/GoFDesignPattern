@@ -1,4 +1,4 @@
-package com.design.pattern.creational.factory.abstractFactory.domain;
+package com.design.pattern.creational.factory.factoryMethod.domain;
 
 public class IceWarrior implements Warrior {
     @Override

@@ -1,6 +1,6 @@
 package com.design.pattern.creational.factory.factoryMethod.domain;
 
-public class IceMagician implements Magician {
+public class IceMagician extends Magician {
 
     @Override
     public void magicAttack() {

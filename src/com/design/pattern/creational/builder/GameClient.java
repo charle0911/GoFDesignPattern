@@ -1,4 +1,4 @@
-package com.design.pattern.creational.factory.builder;
+package com.design.pattern.creational.builder;
 
 
 import java.util.Scanner;

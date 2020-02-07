@@ -1,4 +1,4 @@
-package com.design.pattern.structural.Adapter;
+package com.design.pattern.structural.adapter;
 
 interface Hero {
     void attack();

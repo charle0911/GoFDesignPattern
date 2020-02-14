@@ -1,4 +1,4 @@
-package com.design.pattern.structural.state;
+package com.design.pattern.behavioral.state;
 
 interface HeroState {
     void run();
